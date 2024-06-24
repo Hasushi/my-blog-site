@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Hasushis's Site",
+  title: "Hasu's Site",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
@@ -58,7 +58,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Hasushi's Site",
+      title: "Hasu's Site",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
@@ -99,7 +99,7 @@ const config: Config = {
             },
             {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              href: "https://discordapp.com/invite/hasushi37",
             },
             {
               label: "Twitter",
@@ -116,7 +116,7 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/facebook/Hasushi",
             },
           ],
         },
