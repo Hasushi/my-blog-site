@@ -1,22 +1,23 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import "dotenv/config";
 
 const config: Config = {
   title: "Hasu's Site",
-  tagline: "Dinosaurs are cool",
+  tagline: "I'm a full-stack developer who loves to code and write about it.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://hasushi.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "hasu", // Usually your GitHub org/user name.
+  projectName: "my-blog-site", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -78,15 +79,20 @@ const config: Config = {
         },
       ],
     },
+
     footer: {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Contents",
           items: [
             {
               label: "Tutorial",
               to: "/docs/intro",
+            },
+            {
+              label: "Blog",
+              to: "/blog",
             },
           ],
         },
@@ -94,29 +100,16 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
               label: "Discord",
-              href: "https://discordapp.com/invite/hasushi37",
+              href: "https://discordapp.com/users/1139211974220202035",
             },
             {
-              label: "Twitter",
+              label: "X",
               href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/Hasushi",
+              href: "https://github.com/Hasushi",
             },
           ],
         },
