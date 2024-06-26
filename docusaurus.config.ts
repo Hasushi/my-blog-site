@@ -6,7 +6,7 @@ import "dotenv/config";
 const config: Config = {
   title: "Hasushi's Site",
   tagline: "I'm a full-stack developer who loves to code and write about it.",
-  favicon: "img/favicon.ico",
+  favicon: "https://github.com/Hasushi.png",
 
   // Set the production url of your site here
   url: "https://hasushi.github.io",
@@ -65,7 +65,7 @@ const config: Config = {
       title: "Hasu's Site",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "https://github.com/Hasushi.png",
       },
       items: [
         {
