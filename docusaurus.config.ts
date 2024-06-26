@@ -60,12 +60,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "https://github.com/Hasushi.png",
+    image: "img/docusaurus-social-card.jpg",
     navbar: {
       title: "Hasu's Site",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "https://github.com/Hasushi.png",
       },
       items: [
         {
