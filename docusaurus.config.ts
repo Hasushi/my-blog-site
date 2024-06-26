@@ -4,21 +4,21 @@ import type * as Preset from "@docusaurus/preset-classic";
 import "dotenv/config";
 
 const config: Config = {
-  title: "Hasu's Site",
+  title: "Hasushi's Site",
   tagline: "I'm a full-stack developer who loves to code and write about it.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://hasushi.github.io/",
+  url: "https://Hasushi.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/my-blog-site/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "hasushi", // Usually your GitHub org/user name.
+  organizationName: "Hasushi", // Usually your GitHub org/user name.
   projectName: "my-blog-site", // Usually your repo name.
-  deploymentBranch: "main",
+  deploymentBranch: "gh-pages",
 
   trailingSlash: false,
 
