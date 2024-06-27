@@ -1,3 +1,3 @@
-# 🚧 Hasu's Website
+# 🚧 Hasushi's Website
 
-The content of this website is information about Hasu and a blog.
+The content of this website is information about Hasushi and a blog.
