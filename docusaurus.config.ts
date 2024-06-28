@@ -68,12 +68,6 @@ const config: Config = {
         src: "img/hasushiIcon.jpeg",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
-        },
         { to: "/blog", label: "Blog", position: "right" },
         {
           href: "https://github.com/Hasushi/",
@@ -87,29 +81,16 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Contents",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-          ],
-        },
-        {
           title: "Community",
           items: [
             {
               label: "Discord",
               href: "https://discordapp.com/users/1139211974220202035",
             },
-            {
-              label: "X",
-              href: "https://twitter.com/docusaurus",
-            },
+            // {
+            //   label: "X",
+            //   href: "https://twitter.com/docusaurus",
+            // },
             {
               label: "GitHub",
               href: "https://github.com/Hasushi",
